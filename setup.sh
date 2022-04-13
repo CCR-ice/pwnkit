@@ -8,5 +8,5 @@ echo "Creating ecxecutable..."
 gcc -o pwnkit pwnkit.c
 echo "Done."
 echo "Cleaning up..."
-rm -rf start.sh
+#rm -rf start.sh
 echo "Done."
