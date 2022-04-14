@@ -13,7 +13,7 @@ echo "Fetching C source..."
 #end shell script
 sleep 11
 echo "Done."
-echo "Creating ecxecutable..."
+echo "Creating executable..."
 #start compile
 gcc -o PwnKit PwnKit.c
 #end compile
