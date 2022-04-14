@@ -7,6 +7,7 @@ sleep 5
 chmod +x ./start.sh
 #end script permission
 sleep 5
+echo "Done."
 echo "Fetching C source..."
 #start shell script
 ./start.sh
