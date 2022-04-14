@@ -8,7 +8,7 @@ echo "Fetching C source..."
 sleep 5
 echo "Done."
 echo "Creating ecxecutable..."
-gcc -o pwnkit pwnkit.c
+gcc -o PwnKit PwnKit.c
 sleep 5
 echo "Done."
 echo "Cleaning up..."
