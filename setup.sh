@@ -21,6 +21,12 @@ sleep 5
 echo "Done."
 echo "Cleaning up..."
 #start cleanup
+echo "Removing \"start.sh\"..."
 rm -rf start.sh
+sleep 5
+echo "Done."
+echo "Removing \"PwnKit.c\"..."
+rm -rf PwnKit.c
 #end cleanup
+sleep 5
 echo "Done."
